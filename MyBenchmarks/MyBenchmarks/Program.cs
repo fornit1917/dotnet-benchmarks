@@ -10,7 +10,8 @@ public class Program
         // BenchmarkRunner.Run<NpgsqlInsertBenchamrk>();
         // BenchmarkRunner.Run<NpgsqlParamsBenchmark>();
         // BenchmarkRunner.Run<MethodCallBenchmark>();
-
-        BenchmarkRunner.Run<JobsOneTableVsSplitTableBenchmark>();
+        // BenchmarkRunner.Run<JobsOneTableVsSplitTableBenchmark>();
+        
+        BenchmarkRunner.Run<ListVersusDictionaryBenchmark>();
     }
 }
